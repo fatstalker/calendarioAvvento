@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+.ramo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foglia {
+    display: flex;
+    border-width: 3px;
+    background-color: rgb(10, 89, 10);
+    
+
+
+}
+img {
+    max-width: 160px;
+    border-radius: 100%;
+    padding: 30px;
+}
