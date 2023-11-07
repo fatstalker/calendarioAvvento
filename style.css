@@ -1,4 +1,12 @@
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+button {
+    font-size: larger;
+}
 .ramo {
     display: flex;
     justify-content: center;
