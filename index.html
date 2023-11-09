@@ -16,7 +16,7 @@
                 <div class="punta"></div><!--punta-->
                 <div class="ramo"><!--PRIMO ramo-->
                     <div class="foglia"><!--foglia-->
-                        <img src="images/pallina1.png" alt="cioccolato">
+                        <img id="prima" src="images/pallina1.png" alt="cioccolato">
                     </div>
                 </div>
                 <div class="ramo"><!--SECONDO ramo-->
@@ -115,7 +115,11 @@
             </div>
         </main>
         <script>
-            function login() {let userName = prompt("Chi sei?", 'Batman')}
+            function login() {let userName = prompt("Chi sei?", 'Batman')};
+            document.getElementById("prima").addEventListener("click", changeImage);
+            function changeImage() {
+            alert("ciao")           
+        };
         </script>
 
 </body>
