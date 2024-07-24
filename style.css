@@ -30,8 +30,8 @@ img {
     height: 80px;
     border-radius: 100%;
     padding: 20px;
-    animation: rainbow 4s linear infinite;
-
+    animation: rainbow 4s alternate infinite;
+    transition: transform;
 }
 
 @keyframes rainbow {
